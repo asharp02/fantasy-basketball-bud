@@ -1,2 +1,4 @@
 /fbb
 .vscode
+local.py
+*.sqlite3
