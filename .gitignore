@@ -2,3 +2,4 @@
 .vscode
 local.py
 *.sqlite3
+private.json
