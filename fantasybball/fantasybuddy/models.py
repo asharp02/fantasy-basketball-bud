@@ -26,6 +26,7 @@ class PlayerStats(models.Model):
     tos = models.DecimalField()
 
 
+# do we need this or will this be dynamically fetched
 class FantasyTeam(models.Model):
     team_name = models.CharField(length=100)
     manager = models.ForeignKey(name="Manager", on_delete=models.CASCADE)
