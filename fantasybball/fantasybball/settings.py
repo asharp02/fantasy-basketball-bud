@@ -55,7 +55,7 @@ ROOT_URLCONF = "fantasybball.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [],
+        "DIRS": ["./fantasybuddy/templates"],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
