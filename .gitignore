@@ -3,3 +3,5 @@
 local.py
 *.sqlite3
 private.json
+.DS_STORE
+token.json
